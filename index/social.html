@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>社交</title>
+  </head>
+
+  <body>
+    <!-- 将导航栏置于此处 -->
+    <ul>
+        <li><a href="../index.html">主页</a></li>
+        <Li><a href="projects.html">项目</a></Li>
+        <li><a href="pictures.html">图片</a></li>
+        <li>社交</li>
+    </ul>
+    <h1>社交媒体</h1>
+    <p>你好！欢迎访问我的激励网页！<a href="http://www.brainyquote.com/quotes/authors/c/confucius.html ">
+      <cite>孔子</cite></a>曰：</p>
+    <p><blockquote cite="https://zh.wikipedia.org/zh-hans/孔子">譬如为山，未成一篑，止，吾止也。譬如平地，
+      虽覆一篑，进，吾往也。</blockquote></p>
+    <p>要保持乐观，<q cite="http://www.affirmationsforpositivethinking.com/ ">不要说泄
+      气的话</q>。(源自<a href="http://www.affirmationsforpositivethinking.com/"><cite>Affirmations for 
+      Positive Thinking。)</cite></a></p>
+    <p>欢迎访问我的社交媒体页面。我正在闭关修炼，将在恰当时间公布社交信息。</p>
+    <!--上标与下标-->
+    <p>咖啡因的化学方程式是
+      C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>。</p>
+    <p>如果X<sup>2</sup>的值为9，那么x的值必为3或-3。</p>
+    <!--展示计算机代码
+        <code>: 用于标记计算机通用代码。
+        <pre>: 用于保留空白字符（通常用于代码块）——如果您在文本中使用缩进或多余的空白，
+          浏览器将忽略它，您将不会在呈现的页面上看到它。但是，如果您将文本包含在<pre></pre>标签中，
+          那么空白将会以与你在文本编辑器中看到的相同的方式渲染出来。
+        <var>: 用于标记具体变量名。
+        <kbd>: 用于标记输入电脑的键盘（或其他类型）输入。
+        <samp>: 用于标记计算机程序的输出。
+    -->
+    <pre><code>const para=document.querySelector('p');
+      para.onclick=function(){
+        alert('偶偶，别点我了。');
+      }</code></pre>
+      <!--&lt;左尖括号，&gt;右尖括号-->
+      <p>请不要使用<code>&lt;font&gt;</code>、<code>&lt;center&gt;</code>等表象元素</p>
+      <P>在上述javascript示例中<var>para</var>表示一个段落元素</P>
+      <P>按<kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>选择全部内容</P>
+      <pre>$<kbd>ping mozilla.org</kbd>
+        <samp>PING mozilla.org(63.245.215.20):56 data bytes
+        64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms
+        </samp>
+        <time datatime="2022-6-2">2022年6月2日</time>
+      </pre>
+    <script src="../scripts/social.js"></script>
+  </body>
+</html>
