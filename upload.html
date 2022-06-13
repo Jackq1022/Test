@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <tittle>文件上传到GitHub步骤</tittle>
+    </head>
+    <body>
+        <p>
+        <h2>创建新文件上传到GitHub</h2>
+        
+        在要上传的文件夹上右键git bash here<br>
+
+        git config --global user.name "Jackq1022"<br>
+
+        git config --global user.email 1663734447@qq.com<br>
+
+        git init<br>
+
+        git status<br>
+
+        git add .<br>
+
+        git commit -m “上传文件次数”<br>
+
+        git remote add origin github仓库地址<br>
+
+        git push -u origin master<br>
+
+        上传成功<br>
+        
+        <h2>更新文件</h2>
+        
+        将要上传文件复制到GitHub本地文件夹里<br>
+
+        git status<br>
+
+        git add 文件名<br>
+
+        git commit -m “上传文件次数”<br>
+
+        git remote add origin github仓库地址<br>
+
+        git pull origin master<br>
+
+        git push -u origin master<br>
+
+        上传成功<br>
+
+        </p>
+    </body>
+</html>
